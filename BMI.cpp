@@ -9,6 +9,10 @@ void inputData(double &berat, double &tinggi){
     cin >> tinggi;
 }
 
+double hitungBMI(double berat, double tinggi){
+    return berat / (tinggi * tinggi);
+}
+
 int main() {
 
     double berat;
@@ -17,6 +21,8 @@ int main() {
     cout << "--- Selamat Datang Mahasiswa Kelas A 2025 ---" << endl;
 
     inputData(berat, tinggi);
+
+    double bmi = hitungBMI(berat, tinggi);
 
     return 0;
 }
