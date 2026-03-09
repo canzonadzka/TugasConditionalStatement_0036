@@ -27,8 +27,7 @@ string statusBMI(double bmi){
 
 int main() {
 
-    double berat;
-    double tinggi;
+    double berat, tinggi;
 
     cout << "--- Selamat Datang Mahasiswa Kelas A 2025 ---" << endl;
 
@@ -36,6 +35,10 @@ int main() {
 
     double bmi = hitungBMI(berat, tinggi);
     string status = statusBMI(bmi);
+
+    cout << endl;
+    cout << "--- Hasil ---" << endl;
+    cout << "BMI Anda : " << bmi << endl;
 
     return 0;
 }
