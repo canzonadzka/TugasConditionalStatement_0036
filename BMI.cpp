@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
 
-    cout << "Program Menghitung BMI" << endl;
+    cout << "--- Selamat Datang Mahasiswa Kelas A 2025 ---" << endl;
 
     return 0;
 }
